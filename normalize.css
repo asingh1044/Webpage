@@ -1,0 +1,96 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    width: 960px;
+    background: #8A2387;  
+    background: linear-gradient(to left, #c4c41f, #969796, #ff0303); 
+}
+
+h1, h2, h3 {
+    color:rgb(255, 255, 255);
+}
+
+a:hover {
+    color:rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+nav ul {
+    list-style-type:none;
+    padding:0;
+}
+
+nav li {
+    display:inline;
+    float:left;
+}
+
+nav a:link, nav a:visited {
+    background-color:rgb(235, 13, 13);
+    color:white;
+    display:block;
+    width:320px;
+    text-align:center;
+    padding: 10px 0;
+    transition: 1s background;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:rgb(17, 177, 226);
+}
+
+aside {
+    width:280px;
+    height: 585px;
+    float:right;
+    background-color: rgb(228, 137, 19);
+    text-align:center;
+    font-weight:bold;
+    padding:20px;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+aside:hover{
+    background-color: rgb(19, 204, 228);
+    transition: 1s background;
+    color: rgb(238, 248, 238);
+}
+
+header{
+    height:100px;
+    margin-bottom:70px;
+}
+
+header h1 {
+    color:black;
+    margin-left: 30px;
+    margin-top:30px;
+    font-size:50px;
+}
+
+footer {
+    margin: 20px 0;
+    border: 10px solid;
+}
+
+input, textarea {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.cover {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+p {
+    font-size: 25px;
+}
+
+
